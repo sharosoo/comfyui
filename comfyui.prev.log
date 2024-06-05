@@ -1,0 +1,176 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-05-29 15:13] ** ComfyUI startup time: 2024-05-29 15:13:26.032069
+[2024-05-29 15:13] ** Platform: Darwin
+[2024-05-29 15:13] ** Python version: 3.12.3 (main, Apr  9 2024, 08:09:14) [Clang 15.0.0 (clang-1500.3.9.4)]
+[2024-05-29 15:13] ** Python executable: /Users/jh/workspaces/sharosoo/comfyui/.venv/bin/python
+[2024-05-29 15:13] ** Log path: /Users/jh/workspaces/sharosoo/comfyui/comfyui.log
+[2024-05-29 15:13] 
+Prestartup times for custom nodes:
+[2024-05-29 15:13]    0.1 seconds: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager
+[2024-05-29 15:13] 
+Total VRAM 65536 MB, total RAM 65536 MB
+[2024-05-29 15:13] pytorch version: 2.3.0
+[2024-05-29 15:13] Set vram state to: SHARED
+[2024-05-29 15:13] Device: mps
+[2024-05-29 15:13] VAE dtype: torch.float32
+[2024-05-29 15:13] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-29 15:13] ### Loading: ComfyUI-Manager (V2.35.1)
+[2024-05-29 15:13] ### ComfyUI Revision: 2218 [28629cea] | Released on '2024-05-29'
+[2024-05-29 15:13] Traceback (most recent call last):
+  File "/Users/jh/workspaces/sharosoo/comfyui/nodes.py", line 1879, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git/__init__.py'
+
+[2024-05-29 15:13] Cannot import /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git module for custom nodes: [Errno 2] No such file or directory: '/Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git/__init__.py'
+[2024-05-29 15:13] 
+Import times for custom nodes:
+[2024-05-29 15:13]    0.0 seconds (IMPORT FAILED): /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git
+[2024-05-29 15:13]    0.0 seconds: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager
+[2024-05-29 15:13] 
+[2024-05-29 15:13] Starting server
+
+[2024-05-29 15:13] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-29 15:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-29 15:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-29 15:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-05-29 15:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-29 15:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-29 15:13] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-05-29 15:13] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-05-29 15:13] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-05-29 15:13] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]
+[2024-05-29 15:13] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/custom-node-list.json [DONE]
+[2024-05-29 15:13] FETCH DATA from: https://github.com/ltdrdata/ComfyUI-Manager/raw/main/custom-node-list.json/custom-node-list.json[ComfyUI-Manager] Due to a network error, switching to local mode.
+=> custom-node-list.json
+=> Expecting value: line 7 column 1 (char 6)
+[2024-05-29 15:13] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/custom-node-list.json [DONE]
+[2024-05-29 15:13] Install custom node 'ComfyUI_IPAdapter_plus'
+[2024-05-29 15:13] Install: ['https://github.com/cubiq/ComfyUI_IPAdapter_plus']
+[2024-05-29 15:13] Download: git clone 'https://github.com/cubiq/ComfyUI_IPAdapter_plus'
+[2024-05-29 15:13] 0it [00:00, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 345.0/345.0 [00:00<00:00, 374.43it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 345.0/345.0 [00:00<00:00, 374.25it/s]100%|████████████████████████████████████████████████████████████████████████████████████| 96.0/96.0 [00:00<00:00, 102.72it/s]100%|████████████████████████████████████████████████████████████████████████████████████| 96.0/96.0 [00:00<00:00, 102.69it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 673.0/673.0 [00:01<00:00, 580.16it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 673.0/673.0 [00:01<00:00, 580.07it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 459.0/459.0 [00:01<00:00, 392.95it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 459.0/459.0 [00:01<00:00, 392.91it/s]100%|██████████████████████████████████████████████████████████████████████████████████| 459.0/459.0 [00:01<00:00, 360.32it/s]
+[2024-05-29 15:13] Installation was successful.
+[2024-05-29 15:13] 
+## ComfyUI-Manager: EXECUTE => ['/Users/jh/workspaces/sharosoo/comfyui/.venv/bin/python', '-m', 'pip', 'install', 'insightface']
+[2024-05-29 15:13]  Collecting insightface
+[2024-05-29 15:13]    Downloading insightface-0.7.3.tar.gz (439 kB)
+[2024-05-29 15:13]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 439.5/439.5 kB 1.6 MB/s eta 0:00:00
+[2024-05-29 15:13]    Installing build dependencies: started
+[2024-05-29 15:13]    Installing build dependencies: finished with status 'done'
+[2024-05-29 15:13]    Getting requirements to build wheel: started
+[2024-05-29 15:13]    Getting requirements to build wheel: finished with status 'done'
+[2024-05-29 15:13]    Installing backend dependencies: started
+[2024-05-29 15:13]    Installing backend dependencies: finished with status 'done'
+[2024-05-29 15:13]    Preparing metadata (pyproject.toml): started
+[2024-05-29 15:13]    Preparing metadata (pyproject.toml): finished with status 'done'
+[2024-05-29 15:13]   Collecting onnx (from insightface)
+[2024-05-29 15:13]    Downloading onnx-1.16.1-cp312-cp312-macosx_11_0_universal2.whl.metadata (16 kB)
+[2024-05-29 15:13]    Collecting matplotlib (from insightface)
+[2024-05-29 15:13]    Downloading matplotlib-3.9.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (11 kB)
+[2024-05-29 15:13]    Collecting scikit-learn (from insightface)
+[2024-05-29 15:13]    Downloading scikit_learn-1.5.0-cp312-cp312-macosx_12_0_arm64.whl.metadata (11 kB)
+[2024-05-29 15:13]  Collecting scikit-image (from insightface)
+[2024-05-29 15:13]    Downloading scikit_image-0.23.2-cp312-cp312-macosx_12_0_arm64.whl.metadata (14 kB)
+[2024-05-29 15:13]  Collecting easydict (from insightface)
+[2024-05-29 15:13]    Downloading easydict-1.13-py3-none-any.whl.metadata (4.2 kB)
+[2024-05-29 15:14]  Collecting cython (from insightface)
+[2024-05-29 15:14]    Using cached Cython-3.0.10-py2.py3-none-any.whl.metadata (3.2 kB)
+[2024-05-29 15:14]  Collecting albumentations (from insightface)
+[2024-05-29 15:14]    Downloading albumentations-1.4.8-py3-none-any.whl.metadata (37 kB)
+[2024-05-29 15:14]  Collecting prettytable (from insightface)
+[2024-05-29 15:14]    Downloading prettytable-3.10.0-py3-none-any.whl.metadata (30 kB)
+[2024-05-29 15:14]    Collecting pydantic>=2.7.0 (from albumentations->insightface)
+[2024-05-29 15:14]    Downloading pydantic-2.7.2-py3-none-any.whl.metadata (108 kB)
+[2024-05-29 15:14]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.5/108.5 kB 5.7 MB/s eta 0:00:00
+[2024-05-29 15:14]  Collecting albucore>=0.0.4 (from albumentations->insightface)
+[2024-05-29 15:14]    Downloading albucore-0.0.5-py3-none-any.whl.metadata (3.1 kB)
+[2024-05-29 15:14]  Collecting opencv-python-headless>=4.9.0.80 (from albumentations->insightface)
+[2024-05-29 15:14]    Downloading opencv_python_headless-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl.metadata (20 kB)
+[2024-05-29 15:14]   Collecting imageio>=2.33 (from scikit-image->insightface)
+[2024-05-29 15:14]    Downloading imageio-2.34.1-py3-none-any.whl.metadata (4.9 kB)
+[2024-05-29 15:14]  Collecting tifffile>=2022.8.12 (from scikit-image->insightface)
+[2024-05-29 15:14]    Downloading tifffile-2024.5.22-py3-none-any.whl.metadata (30 kB)
+[2024-05-29 15:14]   Collecting lazy-loader>=0.4 (from scikit-image->insightface)
+[2024-05-29 15:14]    Downloading lazy_loader-0.4-py3-none-any.whl.metadata (7.6 kB)
+[2024-05-29 15:14]  Collecting joblib>=1.2.0 (from scikit-learn->insightface)
+[2024-05-29 15:14]    Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+[2024-05-29 15:14]  Collecting threadpoolctl>=3.1.0 (from scikit-learn->insightface)
+[2024-05-29 15:14]    Downloading threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+[2024-05-29 15:14]  Collecting contourpy>=1.0.1 (from matplotlib->insightface)
+[2024-05-29 15:14]    Downloading contourpy-1.2.1-cp312-cp312-macosx_11_0_arm64.whl.metadata (5.8 kB)
+[2024-05-29 15:14]  Collecting cycler>=0.10 (from matplotlib->insightface)
+[2024-05-29 15:14]    Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+[2024-05-29 15:14]  Collecting fonttools>=4.22.0 (from matplotlib->insightface)
+[2024-05-29 15:14]    Downloading fonttools-4.52.4-cp312-cp312-macosx_11_0_arm64.whl.metadata (161 kB)
+[2024-05-29 15:14]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 161.7/161.7 kB 8.8 MB/s eta 0:00:00
+[2024-05-29 15:14]  Collecting kiwisolver>=1.3.1 (from matplotlib->insightface)
+[2024-05-29 15:14]    Using cached kiwisolver-1.4.5-cp312-cp312-macosx_11_0_arm64.whl.metadata (6.4 kB)
+[2024-05-29 15:14]  Collecting pyparsing>=2.3.1 (from matplotlib->insightface)
+[2024-05-29 15:14]    Using cached pyparsing-3.1.2-py3-none-any.whl.metadata (5.1 kB)
+[2024-05-29 15:14]  Collecting python-dateutil>=2.7 (from matplotlib->insightface)
+[2024-05-29 15:14]    Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+[2024-05-29 15:14]   Collecting wcwidth (from prettytable->insightface)
+[2024-05-29 15:14]    Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+[2024-05-29 15:14]      Collecting tomli>=2.0.1 (from albucore>=0.0.4->albumentations->insightface)
+[2024-05-29 15:14]    Downloading tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+[2024-05-29 15:14]  Collecting annotated-types>=0.4.0 (from pydantic>=2.7.0->albumentations->insightface)
+[2024-05-29 15:14]    Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+[2024-05-29 15:14]  Collecting pydantic-core==2.18.3 (from pydantic>=2.7.0->albumentations->insightface)
+[2024-05-29 15:14]    Downloading pydantic_core-2.18.3-cp312-cp312-macosx_11_0_arm64.whl.metadata (6.5 kB)
+[2024-05-29 15:14]  Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->insightface)
+[2024-05-29 15:14]    Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+[2024-05-29 15:14]  Downloading albumentations-1.4.8-py3-none-any.whl (156 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 156.8/156.8 kB 10.5 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading scikit_image-0.23.2-cp312-cp312-macosx_12_0_arm64.whl (13.3 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 36.8 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading scikit_learn-1.5.0-cp312-cp312-macosx_12_0_arm64.whl (11.0 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/11.0 MB 42.2 MB/s eta 0:00:00
+[2024-05-29 15:14]  Using cached Cython-3.0.10-py2.py3-none-any.whl (1.2 MB)
+[2024-05-29 15:14]  Downloading easydict-1.13-py3-none-any.whl (6.8 kB)
+[2024-05-29 15:14]  Downloading matplotlib-3.9.0-cp312-cp312-macosx_11_0_arm64.whl (7.8 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 34.4 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading onnx-1.16.1-cp312-cp312-macosx_11_0_universal2.whl (16.5 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.5/16.5 MB 20.2 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading prettytable-3.10.0-py3-none-any.whl (28 kB)
+[2024-05-29 15:14]  Downloading albucore-0.0.5-py3-none-any.whl (6.2 kB)
+[2024-05-29 15:14]  Downloading contourpy-1.2.1-cp312-cp312-macosx_11_0_arm64.whl (245 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 245.3/245.3 kB 17.3 MB/s eta 0:00:00
+[2024-05-29 15:14]  Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+[2024-05-29 15:14]  Downloading fonttools-4.52.4-cp312-cp312-macosx_11_0_arm64.whl (2.2 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 30.7 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading imageio-2.34.1-py3-none-any.whl (313 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 313.5/313.5 kB 23.4 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading joblib-1.4.2-py3-none-any.whl (301 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 301.8/301.8 kB 24.4 MB/s eta 0:00:00
+[2024-05-29 15:14]  Using cached kiwisolver-1.4.5-cp312-cp312-macosx_11_0_arm64.whl (64 kB)
+[2024-05-29 15:14]  Downloading lazy_loader-0.4-py3-none-any.whl (12 kB)
+[2024-05-29 15:14]  Downloading opencv_python_headless-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl (35.4 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.4/35.4 MB 38.1 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading pydantic-2.7.2-py3-none-any.whl (409 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 409.5/409.5 kB 27.5 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading pydantic_core-2.18.3-cp312-cp312-macosx_11_0_arm64.whl (1.8 MB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 64.1 MB/s eta 0:00:00
+[2024-05-29 15:14]  Using cached pyparsing-3.1.2-py3-none-any.whl (103 kB)
+[2024-05-29 15:14]  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 16.3 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+[2024-05-29 15:14]  Downloading tifffile-2024.5.22-py3-none-any.whl (225 kB)
+[2024-05-29 15:14]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 225.5/225.5 kB 15.1 MB/s eta 0:00:00
+[2024-05-29 15:14]  Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+[2024-05-29 15:14]  Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+[2024-05-29 15:14]  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+[2024-05-29 15:14]  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+[2024-05-29 15:14]  Building wheels for collected packages: insightface
+[2024-05-29 15:14]    Building wheel for insightface (pyproject.toml): started
+[2024-05-29 15:14]    Building wheel for insightface (pyproject.toml): finished with status 'done'
+[2024-05-29 15:14]    Created wheel for insightface: filename=insightface-0.7.3-cp312-cp312-macosx_14_0_arm64.whl size=864071 sha256=1d7057cb4fc294aa78b468ee47bd3254eff1bca124e5b4010ccc87ab6f346434
+[2024-05-29 15:14]    Stored in directory: /Users/jh/Library/Caches/pip/wheels/73/3c/e2/6d4815e8a8b33a2006554d65ce0d1f973e768f4c7a222fa675
+[2024-05-29 15:14]  Successfully built insightface
+[2024-05-29 15:14]  Installing collected packages: wcwidth, easydict, tomli, tifffile, threadpoolctl, six, pyparsing, pydantic-core, prettytable, opencv-python-headless, onnx, lazy-loader, kiwisolver, joblib, imageio, fonttools, cython, cycler, contourpy, annotated-types, scikit-learn, scikit-image, python-dateutil, pydantic, albucore, matplotlib, albumentations, insightface
+[2024-05-29 15:14]  Successfully installed albucore-0.0.5 albumentations-1.4.8 annotated-types-0.7.0 contourpy-1.2.1 cycler-0.12.1 cython-3.0.10 easydict-1.13 fonttools-4.52.4 imageio-2.34.1 insightface-0.7.3 joblib-1.4.2 kiwisolver-1.4.5 lazy-loader-0.4 matplotlib-3.9.0 onnx-1.16.1 opencv-python-headless-4.9.0.80 prettytable-3.10.0 pydantic-2.7.2 pydantic-core-2.18.3 pyparsing-3.1.2 python-dateutil-2.9.0.post0 scikit-image-0.23.2 scikit-learn-1.5.0 six-1.16.0 threadpoolctl-3.5.0 tifffile-2024.5.22 tomli-2.0.1 wcwidth-0.2.13
+[2024-05-29 15:14] After restarting ComfyUI, please refresh the browser.
+[2024-05-29 15:14] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-05-29 15:14] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/.cache/746607195_github-stats.json [DONE]
+[2024-05-29 15:14] FETCH DATA from: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json [DONE]

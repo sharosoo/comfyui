@@ -1,0 +1,55 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-05-29 15:15] ** ComfyUI startup time: 2024-05-29 15:15:09.595951
+[2024-05-29 15:15] ** Platform: Darwin
+[2024-05-29 15:15] ** Python version: 3.12.3 (main, Apr  9 2024, 08:09:14) [Clang 15.0.0 (clang-1500.3.9.4)]
+[2024-05-29 15:15] ** Python executable: /Users/jh/workspaces/sharosoo/comfyui/.venv/bin/python
+[2024-05-29 15:15] ** Log path: /Users/jh/workspaces/sharosoo/comfyui/comfyui.log
+[2024-05-29 15:15] 
+Prestartup times for custom nodes:
+[2024-05-29 15:15]    0.1 seconds: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager
+[2024-05-29 15:15] 
+Total VRAM 65536 MB, total RAM 65536 MB
+[2024-05-29 15:15] pytorch version: 2.3.0
+[2024-05-29 15:15] Set vram state to: SHARED
+[2024-05-29 15:15] Device: mps
+[2024-05-29 15:15] VAE dtype: torch.float32
+[2024-05-29 15:15] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-05-29 15:15] ### Loading: ComfyUI-Manager (V2.35.1)
+[2024-05-29 15:15] ### ComfyUI Revision: 2218 [28629cea] | Released on '2024-05-29'
+[2024-05-29 15:15] Traceback (most recent call last):
+  File "/Users/jh/workspaces/sharosoo/comfyui/nodes.py", line 1879, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git/__init__.py'
+
+[2024-05-29 15:15] Cannot import /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git module for custom nodes: [Errno 2] No such file or directory: '/Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git/__init__.py'
+[2024-05-29 15:15] 
+Import times for custom nodes:
+[2024-05-29 15:15]    0.0 seconds (IMPORT FAILED): /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/.git
+[2024-05-29 15:15]    0.0 seconds: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI-Manager
+[2024-05-29 15:15]    0.1 seconds: /Users/jh/workspaces/sharosoo/comfyui/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-05-29 15:15] 
+[2024-05-29 15:15] Starting server
+
+[2024-05-29 15:15] To see the GUI go to: http://127.0.0.1:8188
+[2024-05-29 15:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-05-29 15:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-05-29 15:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-05-29 15:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-05-29 15:15] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-05-29 15:15] got prompt
+[2024-05-29 15:15] model_type EPS
+[2024-05-29 15:15] Using split attention in VAE
+[2024-05-29 15:15] Using split attention in VAE
+[2024-05-29 15:15] Requested to load SD1ClipModel
+[2024-05-29 15:15] Loading 1 new model
+[2024-05-29 15:15] Requested to load AutoencoderKL
+[2024-05-29 15:15] Loading 1 new model
+[2024-05-29 15:15] Requested to load BaseModel
+[2024-05-29 15:15] Loading 1 new model
+[2024-05-29 15:16] 100%|█████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:24<00:00,  1.24s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:24<00:00,  1.24s/it]
+[2024-05-29 15:16] Prompt executed in 29.37 seconds
+[2024-05-29 15:22] 
+Stopped server

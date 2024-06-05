@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "comfyui"
+version = "0.1.0"
+description = ""
+authors = ["sharosoo <shiningmoon@snu.ac.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.3.0"
+torchsde = "^0.2.6"
+torchvision = "^0.18.0"
+einops = "^0.8.0"
+transformers = "^4.41.1"
+safetensors = "^0.4.3"
+aiohttp = "^3.9.5"
+pyyaml = "^6.0.1"
+pillow = "^10.3.0"
+scipy = "^1.13.1"
+tqdm = "^4.66.4"
+psutil = "^5.9.8"
+kornia = "^0.7.2"
+spandrel = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
